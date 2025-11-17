@@ -1,17 +1,49 @@
-# React + Vite
+# 🚀 Gestionnaire de Projets
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Application React complète de gestion de projets avec méthode Pomodoro, développée avec Vite.
 
-Currently, two official plugins are available:
+## 📋 Fonctionnalités
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Gestion des Projets
+- ✅ **Ajout** de nouveaux projets avec titre, description et deadline
+- ✅ **Modification** des informations des projets existants
+- ✅ **Changement de statut** (À faire → En cours → Terminé)
+- ✅ **Suppression** de projets avec confirmation
+- ✅ **Recherche** dans les titres et descriptions
+- ✅ **Filtrage** par statut
+- ✅ **Tri** par deadline, titre, temps passé ou date de création
 
-## React Compiler
+### Productivité
+- ✅ **Timer Pomodoro** intégré (25min travail / 5min pause)
+- ✅ **Suivi du temps** passé sur chaque projet
+- ✅ **Notifications** navigateur pour les sessions
+- ✅ **Compteur** de Pomodoros complétés
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Visualisation
+- ✅ **Statistiques** en temps réel
+- ✅ **Graphique** de répartition des statuts
+- ✅ **Indicateurs** visuels (projets en retard, temps moyen)
+- ✅ **Interface** responsive et moderne
 
-## Expanding the ESLint configuration
+## 🛠 Technologies Utilisées
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# ProjectManagerMERN" 
+- **React 18+** avec Hooks modernes
+- **Vite** pour le build et développement
+- **useReducer** - Gestion d'état complexe des projets
+- **useEffect** - Persistance et effets secondaires
+- **useState** - État local des composants
+- **CSS3** - Styles modernes avec variables CSS
+- **localStorage** - Persistance des données
+
+## 📦 Installation
+
+### Prérequis
+- Node.js 16+ 
+- npm ou yarn
+
+### Étapes d'installation
+
+1. **Cloner le projet**
+```bash
+git clone [url-du-projet]
+cd project-manager
